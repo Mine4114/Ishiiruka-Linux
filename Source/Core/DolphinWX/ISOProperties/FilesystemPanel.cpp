@@ -20,6 +20,8 @@
 #include <wx/sizer.h>
 #include <wx/textctrl.h>
 #include <wx/treectrl.h>
+#include <wx/filedlg.h>
+#include <wx/dirdlg.h>
 
 #include "Common/CommonPaths.h"
 #include "Common/FileUtil.h"
