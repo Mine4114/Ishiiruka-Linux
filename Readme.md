@@ -54,6 +54,7 @@ Dolphin requires [CMake](http://www.cmake.org/) for systems other than Windows. 
 bundled with Dolphin and used if they're not installed on your system. CMake
 will inform you if a bundled library is used or if you need to install any
 missing packages yourself.
+
 This project requires a manually installed copy of [wxWidgets](https://wxwidgets.org/), as the provided copy in Externals does not compile properly.
 It also currently requires a build of [FFmpeg](https://ffmpeg.org) prior to 4.0, 3.6 is recommended.
 
