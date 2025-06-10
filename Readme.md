@@ -55,7 +55,7 @@ bundled with Dolphin and used if they're not installed on your system. CMake
 will inform you if a bundled library is used or if you need to install any
 missing packages yourself.
 
-This project requires a manually installed copy of [wxWidgets](https://wxwidgets.org/), as the provided copy in Externals does not compile properly.
+This project requires a manually installed copy of [wxWidgets](https://wxwidgets.org/) 3.1.3, as the provided copy in Externals does not compile properly, and the latest version does not currently work with this project.
 It also currently requires a build of [FFmpeg](https://ffmpeg.org) prior to 4.0, 3.6 is recommended.
 
 

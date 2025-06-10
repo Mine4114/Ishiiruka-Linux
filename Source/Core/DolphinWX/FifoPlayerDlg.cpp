@@ -15,6 +15,7 @@
 #include <wx/clipbrd.h>
 #include <wx/dataobj.h>
 #include <wx/dialog.h>
+#include <wx/event.h>
 #include <wx/filedlg.h>
 #include <wx/listbox.h>
 #include <wx/msgdlg.h>
