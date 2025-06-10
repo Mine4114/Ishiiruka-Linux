@@ -28,7 +28,7 @@ AboutDolphin::AboutDolphin(wxWindow* parent, wxWindowID id, const wxString& titl
   const wxString CopyrightText =
       _("(c) 2003-2015+ Dolphin Team. \"GameCube\" and \"Wii\" are trademarks of Nintendo. Dolphin "
         "is not affiliated with Nintendo in any way.");
-  const wxString BranchText = wxString::Format(_("Branch: %s"), Common::scm_branch_str.c_str());
+  const wxString BranchText = wxString::Format(_("Branch: Linux Fork - Master"), Common::scm_branch_str.c_str());
   const wxString BranchRevText = wxString::Format(_("Revision: %s"), Common::scm_rev_git_str.c_str());
   const wxString CheckUpdateText = _("Check for updates: ");
   const wxString Text =
@@ -54,7 +54,7 @@ AboutDolphin::AboutDolphin(wxWindow* parent, wxWindowID id, const wxString& titl
                                                         "https://dolphin-emu.org/download/");
   wxHyperlinkCtrl* const License =
       new wxHyperlinkCtrl(this, wxID_ANY, LicenseText,
-                          "https://github.com/dolphin-emu/dolphin/blob/master/license.txt");
+                          "https://github.com/Mine4114/Ishiiruka-Linux/blob/master/license.txt");
   wxHyperlinkCtrl* const Authors = new wxHyperlinkCtrl(
       this, wxID_ANY, AuthorsText, "https://github.com/dolphin-emu/dolphin/graphs/contributors");
   wxHyperlinkCtrl* const Support =
