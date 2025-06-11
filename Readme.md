@@ -56,7 +56,7 @@ will inform you if a bundled library is used or if you need to install any
 missing packages yourself.
 
 This project requires a manually built copy of [wxWidgets](https://wxwidgets.org/) 3.1.3, built with GTK2, as the provided copy in Externals does not compile properly, and the latest version does not currently work with this project.
-It also currently requires a build of [FFmpeg](https://ffmpeg.org) prior to 4.0, 3.6 is recommended.
+It also currently requires a build of [FFmpeg](https://ffmpeg.org) prior to 4.0, 3.4 is recommended.
 
 
 ### macOS Build Steps:
@@ -126,7 +126,7 @@ see where it's stored) if you don't plan to reinstall Dolphin.
 
 ## Command Line Usage
 
-`Usage: Dolphin [-h] [-d] [-l] [-e <str>] [-b] [-V <str>] [-A <str>]`
+`Usage: ishiiruka [-h] [-d] [-l] [-e <str>] [-b] [-V <str>] [-A <str>]`
 
 * -h, --help Show this help message
 * -d, --debugger Opens the debugger
